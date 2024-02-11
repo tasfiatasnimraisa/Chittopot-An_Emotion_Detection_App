@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chittopot</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <string name="select">Select Catagory</string>
+
+
+</resources>

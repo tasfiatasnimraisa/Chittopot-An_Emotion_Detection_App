@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <group
+        android:id="@+id/group1"
+        android:background="#B9D9EB"
+        android:checkableBehavior="single">
+        <item android:title="Search By">
+            <menu>
+
+                <item
+                    android:id="@+id/mHome"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Home" />
+
+
+
+                <item
+                    android:id="@+id/mDashboard"
+                    android:icon="@drawable/ic_menu"
+                    android:title="History" />
+
+                <item
+                    android:id="@+id/mRate"
+                    android:icon="@drawable/ic_menu"
+                    android:title="See More Videos" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:background="#B9D9EB"
+        android:checkableBehavior="single">
+        <item android:title="Logout">
+
+            <menu>
+
+
+                <item
+                    android:id="@+id/Policy"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
